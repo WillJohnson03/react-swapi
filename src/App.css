@@ -1,0 +1,51 @@
+body {
+  padding: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.starship-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: clamp(400px, 80vw, 1200px);
+  margin: auto;
+  justify-content: center;
+}
+
+#starshipDiv {
+  border: 1px solid black;
+  width: fit-content;
+  display: grid;
+  justify-items: center;
+  padding: 15px;
+  margin: 1rem;
+  background-color: #304f4f;
+  color: #e8ebeb;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: calc(10px + 2vmin);
+  color: #e8ebeb;
+}
+
+a {
+  text-decoration: none;
+  color: #e8ebeb;
+}
